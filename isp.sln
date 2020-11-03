@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "isp", "isp\isp.dtproj", "{02658E8F-6159-4537-A0C5-2B51FA1D95C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02658E8F-6159-4537-A0C5-2B51FA1D95C4}.Development|Default.ActiveCfg = Development
+		{02658E8F-6159-4537-A0C5-2B51FA1D95C4}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5697165D-EEC7-411D-A725-517C64D46C52}
+	EndGlobalSection
+EndGlobal
