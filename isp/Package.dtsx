@@ -11,8 +11,8 @@
   DTS:LocaleID="1049"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="26"
-  DTS:VersionGUID="{488A463C-227A-44FA-8C50-E478D0DC2777}">
+  DTS:VersionBuild="29"
+  DTS:VersionGUID="{B3F1A7D9-D135-4F41-9CB1-4212BE39A8F0}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -27,7 +27,7 @@
           ConnectByProxy="False">
           <Password
             Sensitive="1" xmlns="www.microsoft.com/SqlServer/Dts"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAApRdI+WKVA0irPISsVQdfxgAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAB7Tc/hBeh9IwoCnzY+d5KYAAAAAASAAACgAAAAEAAAAI1BoYypUIm1XiOT1LoyBA0oAAAAwQKur40f0CwSmVfP36znwqA9SUYT3jxH9U1JJLzq7PCshIpvAb6ofhQAAAApFsypp6CSrFkN56hfQsL6OtNfyA</Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAApRdI+WKVA0irPISsVQdfxgAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAADvvmi5pdENDbD+J7XxBuO2AAAAAASAAACgAAAAEAAAADQmxAV6FSZXUl5IBMVLd+0oAAAAzk4NN5zrzv/aMwk5jSrPUf5KuKDbYYfuismwhbBlaWsGBg+8OG1/nRQAAAB/CJhh5Fuj+WdinsmpOd5M3R40OA</Password>
         </CrmConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -150,7 +150,7 @@
               DTS:DataType="135"
               DTS:TextQualified="True"
               DTS:ObjectName="createdon"
-              DTS:DTSID="{10745EE4-33B0-44F4-B144-E0999EBF48CD}"
+              DTS:DTSID="{74867575-7F1E-4B2A-8EB8-E4B6EC46F2E5}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -159,7 +159,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="name"
-              DTS:DTSID="{D3399D8F-F858-48C8-92D1-2FD7DE26D73F}"
+              DTS:DTSID="{499F3466-DF5E-42F9-B43A-0237304F678C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -168,33 +168,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="accountnumber"
-              DTS:DTSID="{B9680556-EF47-41B7-AEB9-94D42B2114B4}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x003B_"
-              DTS:MaximumWidth="64"
-              DTS:DataType="130"
-              DTS:TextQualified="True"
-              DTS:ObjectName="objecttypecode"
-              DTS:DTSID="{69F22CFE-DEF3-49B3-943A-2FCC122FA45B}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x003B_"
-              DTS:DataType="72"
-              DTS:TextQualified="True"
-              DTS:ObjectName="userid"
-              DTS:DTSID="{90C1AA53-E55E-41BA-83BC-879288C586E9}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x003B_"
-              DTS:MaximumWidth="300"
-              DTS:DataType="130"
-              DTS:TextQualified="True"
-              DTS:ObjectName="useridname"
-              DTS:DTSID="{9404E843-8AFF-4A07-9B3B-E88C85F34F3B}"
+              DTS:DTSID="{DF40E11F-246B-4B9E-9AC0-841AE3F6EE9B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -203,7 +177,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="fieldname"
-              DTS:DTSID="{9FBA7F5A-E6C1-4FA2-8672-CAB71FA7A833}"
+              DTS:DTSID="{47F56576-E6A3-421D-A0D9-7E7BD9A39A23}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -211,7 +185,7 @@
               DTS:DataType="302"
               DTS:TextQualified="True"
               DTS:ObjectName="oldvalue_converted"
-              DTS:DTSID="{9B174798-4858-4F05-A5B8-CA3703D85DDF}"
+              DTS:DTSID="{8E48226C-FACD-460F-A999-0BAE91B4B718}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -219,7 +193,7 @@
               DTS:DataType="302"
               DTS:TextQualified="True"
               DTS:ObjectName="newvalue_converted"
-              DTS:DTSID="{BAC29A0C-5AD8-44E5-9D4C-8F1D77E61A9D}"
+              DTS:DTSID="{404B94F0-CDE6-47DD-83CB-EFCFCAB77D2C}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -335,35 +309,6 @@
                       externalMetadataColumnId="Package\Задача потока данных\Dynamics CRM Source.Outputs[Primary Output].ExternalColumns[objectid]"
                       lineageId="Package\Задача потока данных\Dynamics CRM Source.Outputs[Primary Output].Columns[objectid]"
                       name="objectid"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Задача потока данных\Dynamics CRM Source.Outputs[Primary Output].Columns[objecttypecode]"
-                      dataType="wstr"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Задача потока данных\Dynamics CRM Source.Outputs[Primary Output].ExternalColumns[objecttypecode]"
-                      length="64"
-                      lineageId="Package\Задача потока данных\Dynamics CRM Source.Outputs[Primary Output].Columns[objecttypecode]"
-                      name="objecttypecode"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Задача потока данных\Dynamics CRM Source.Outputs[Primary Output].Columns[userid]"
-                      dataType="guid"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Задача потока данных\Dynamics CRM Source.Outputs[Primary Output].ExternalColumns[userid]"
-                      lineageId="Package\Задача потока данных\Dynamics CRM Source.Outputs[Primary Output].Columns[userid]"
-                      name="userid"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Задача потока данных\Dynamics CRM Source.Outputs[Primary Output].Columns[useridname]"
-                      dataType="wstr"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Задача потока данных\Dynamics CRM Source.Outputs[Primary Output].ExternalColumns[useridname]"
-                      length="300"
-                      lineageId="Package\Задача потока данных\Dynamics CRM Source.Outputs[Primary Output].Columns[useridname]"
-                      name="useridname"
                       truncationRowDisposition="FailComponent" />
                   </outputColumns>
                   <externalMetadataColumns
@@ -2010,32 +1955,12 @@
                   name="Вход назначения &quot;Неструктурированный файл&quot;">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Задача потока данных\Назначение &quot;Неструктурированный файл&quot;.Inputs[Вход назначения &quot;Неструктурированный файл&quot;].Columns[useridname]"
-                      cachedDataType="wstr"
-                      cachedLength="300"
-                      cachedName="useridname"
-                      externalMetadataColumnId="Package\Задача потока данных\Назначение &quot;Неструктурированный файл&quot;.Inputs[Вход назначения &quot;Неструктурированный файл&quot;].ExternalColumns[useridname]"
-                      lineageId="Package\Задача потока данных\Соединение слиянием 1.Outputs[Выход соединения слиянием].Columns[useridname]" />
-                    <inputColumn
-                      refId="Package\Задача потока данных\Назначение &quot;Неструктурированный файл&quot;.Inputs[Вход назначения &quot;Неструктурированный файл&quot;].Columns[userid]"
-                      cachedDataType="guid"
-                      cachedName="userid"
-                      externalMetadataColumnId="Package\Задача потока данных\Назначение &quot;Неструктурированный файл&quot;.Inputs[Вход назначения &quot;Неструктурированный файл&quot;].ExternalColumns[userid]"
-                      lineageId="Package\Задача потока данных\Соединение слиянием 1.Outputs[Выход соединения слиянием].Columns[userid]" />
-                    <inputColumn
                       refId="Package\Задача потока данных\Назначение &quot;Неструктурированный файл&quot;.Inputs[Вход назначения &quot;Неструктурированный файл&quot;].Columns[fieldname]"
                       cachedDataType="wstr"
                       cachedLength="255"
                       cachedName="fieldname"
                       externalMetadataColumnId="Package\Задача потока данных\Назначение &quot;Неструктурированный файл&quot;.Inputs[Вход назначения &quot;Неструктурированный файл&quot;].ExternalColumns[fieldname]"
                       lineageId="Package\Задача потока данных\Соединение слиянием 1.Outputs[Выход соединения слиянием].Columns[fieldname]" />
-                    <inputColumn
-                      refId="Package\Задача потока данных\Назначение &quot;Неструктурированный файл&quot;.Inputs[Вход назначения &quot;Неструктурированный файл&quot;].Columns[objecttypecode]"
-                      cachedDataType="wstr"
-                      cachedLength="64"
-                      cachedName="objecttypecode"
-                      externalMetadataColumnId="Package\Задача потока данных\Назначение &quot;Неструктурированный файл&quot;.Inputs[Вход назначения &quot;Неструктурированный файл&quot;].ExternalColumns[objecttypecode]"
-                      lineageId="Package\Задача потока данных\Соединение слиянием 1.Outputs[Выход соединения слиянием].Columns[objecttypecode]" />
                     <inputColumn
                       refId="Package\Задача потока данных\Назначение &quot;Неструктурированный файл&quot;.Inputs[Вход назначения &quot;Неструктурированный файл&quot;].Columns[createdon]"
                       cachedDataType="dbTimeStamp"
@@ -2074,24 +1999,10 @@
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\Задача потока данных\Назначение &quot;Неструктурированный файл&quot;.Inputs[Вход назначения &quot;Неструктурированный файл&quot;].ExternalColumns[useridname]"
-                      dataType="wstr"
-                      length="300"
-                      name="useridname" />
-                    <externalMetadataColumn
-                      refId="Package\Задача потока данных\Назначение &quot;Неструктурированный файл&quot;.Inputs[Вход назначения &quot;Неструктурированный файл&quot;].ExternalColumns[userid]"
-                      dataType="guid"
-                      name="userid" />
-                    <externalMetadataColumn
                       refId="Package\Задача потока данных\Назначение &quot;Неструктурированный файл&quot;.Inputs[Вход назначения &quot;Неструктурированный файл&quot;].ExternalColumns[fieldname]"
                       dataType="wstr"
                       length="255"
                       name="fieldname" />
-                    <externalMetadataColumn
-                      refId="Package\Задача потока данных\Назначение &quot;Неструктурированный файл&quot;.Inputs[Вход назначения &quot;Неструктурированный файл&quot;].ExternalColumns[objecttypecode]"
-                      dataType="wstr"
-                      length="64"
-                      name="objecttypecode" />
                     <externalMetadataColumn
                       refId="Package\Задача потока данных\Назначение &quot;Неструктурированный файл&quot;.Inputs[Вход назначения &quot;Неструктурированный файл&quot;].ExternalColumns[createdon]"
                       dataType="dbTimeStamp"
@@ -2273,23 +2184,6 @@
                       cachedName="createdon"
                       lineageId="Package\Задача потока данных\Сортировка 3.Outputs[Выход сортировки].Columns[createdon]" />
                     <inputColumn
-                      refId="Package\Задача потока данных\Соединение слиянием 1.Inputs[Левый вход соединения слиянием].Columns[objecttypecode]"
-                      cachedDataType="wstr"
-                      cachedLength="64"
-                      cachedName="objecttypecode"
-                      lineageId="Package\Задача потока данных\Сортировка 3.Outputs[Выход сортировки].Columns[objecttypecode]" />
-                    <inputColumn
-                      refId="Package\Задача потока данных\Соединение слиянием 1.Inputs[Левый вход соединения слиянием].Columns[userid]"
-                      cachedDataType="guid"
-                      cachedName="userid"
-                      lineageId="Package\Задача потока данных\Сортировка 3.Outputs[Выход сортировки].Columns[userid]" />
-                    <inputColumn
-                      refId="Package\Задача потока данных\Соединение слиянием 1.Inputs[Левый вход соединения слиянием].Columns[useridname]"
-                      cachedDataType="wstr"
-                      cachedLength="300"
-                      cachedName="useridname"
-                      lineageId="Package\Задача потока данных\Сортировка 3.Outputs[Выход сортировки].Columns[useridname]" />
-                    <inputColumn
                       refId="Package\Задача потока данных\Соединение слиянием 1.Inputs[Левый вход соединения слиянием].Columns[fieldname]"
                       cachedDataType="wstr"
                       cachedLength="255"
@@ -2381,47 +2275,6 @@
                           dataType="System.Int32"
                           description="Входной столбец, связанный с этим выходным столбцом"
                           name="InputColumnID">#{Package\Задача потока данных\Соединение слиянием 1.Inputs[Правый вход соединения слиянием].Columns[accountnumber]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Задача потока данных\Соединение слиянием 1.Outputs[Выход соединения слиянием].Columns[objecttypecode]"
-                      dataType="wstr"
-                      length="64"
-                      lineageId="Package\Задача потока данных\Соединение слиянием 1.Outputs[Выход соединения слиянием].Columns[objecttypecode]"
-                      name="objecttypecode">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Входной столбец, связанный с этим выходным столбцом"
-                          name="InputColumnID">#{Package\Задача потока данных\Соединение слиянием 1.Inputs[Левый вход соединения слиянием].Columns[objecttypecode]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Задача потока данных\Соединение слиянием 1.Outputs[Выход соединения слиянием].Columns[userid]"
-                      dataType="guid"
-                      lineageId="Package\Задача потока данных\Соединение слиянием 1.Outputs[Выход соединения слиянием].Columns[userid]"
-                      name="userid">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Входной столбец, связанный с этим выходным столбцом"
-                          name="InputColumnID">#{Package\Задача потока данных\Соединение слиянием 1.Inputs[Левый вход соединения слиянием].Columns[userid]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Задача потока данных\Соединение слиянием 1.Outputs[Выход соединения слиянием].Columns[useridname]"
-                      dataType="wstr"
-                      length="300"
-                      lineageId="Package\Задача потока данных\Соединение слиянием 1.Outputs[Выход соединения слиянием].Columns[useridname]"
-                      name="useridname">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Входной столбец, связанный с этим выходным столбцом"
-                          name="InputColumnID">#{Package\Задача потока данных\Соединение слиянием 1.Inputs[Левый вход соединения слиянием].Columns[useridname]}</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
@@ -2519,23 +2372,6 @@
                       cachedDataType="guid"
                       cachedName="objectid"
                       lineageId="Package\Задача потока данных\Сортировка 4.Outputs[Выход сортировки].Columns[objectid]" />
-                    <inputColumn
-                      refId="Package\Задача потока данных\Соединение слиянием 2.Inputs[Левый вход соединения слиянием].Columns[objecttypecode]"
-                      cachedDataType="wstr"
-                      cachedLength="64"
-                      cachedName="objecttypecode"
-                      lineageId="Package\Задача потока данных\Сортировка 4.Outputs[Выход сортировки].Columns[objecttypecode]" />
-                    <inputColumn
-                      refId="Package\Задача потока данных\Соединение слиянием 2.Inputs[Левый вход соединения слиянием].Columns[userid]"
-                      cachedDataType="guid"
-                      cachedName="userid"
-                      lineageId="Package\Задача потока данных\Сортировка 4.Outputs[Выход сортировки].Columns[userid]" />
-                    <inputColumn
-                      refId="Package\Задача потока данных\Соединение слиянием 2.Inputs[Левый вход соединения слиянием].Columns[useridname]"
-                      cachedDataType="wstr"
-                      cachedLength="300"
-                      cachedName="useridname"
-                      lineageId="Package\Задача потока данных\Сортировка 4.Outputs[Выход сортировки].Columns[useridname]" />
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
@@ -2599,47 +2435,6 @@
                           dataType="System.Int32"
                           description="Входной столбец, связанный с этим выходным столбцом"
                           name="InputColumnID">#{Package\Задача потока данных\Соединение слиянием 2.Inputs[Левый вход соединения слиянием].Columns[objectid]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Задача потока данных\Соединение слиянием 2.Outputs[Выход соединения слиянием].Columns[objecttypecode]"
-                      dataType="wstr"
-                      length="64"
-                      lineageId="Package\Задача потока данных\Соединение слиянием 2.Outputs[Выход соединения слиянием].Columns[objecttypecode]"
-                      name="objecttypecode">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Входной столбец, связанный с этим выходным столбцом"
-                          name="InputColumnID">#{Package\Задача потока данных\Соединение слиянием 2.Inputs[Левый вход соединения слиянием].Columns[objecttypecode]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Задача потока данных\Соединение слиянием 2.Outputs[Выход соединения слиянием].Columns[userid]"
-                      dataType="guid"
-                      lineageId="Package\Задача потока данных\Соединение слиянием 2.Outputs[Выход соединения слиянием].Columns[userid]"
-                      name="userid">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Входной столбец, связанный с этим выходным столбцом"
-                          name="InputColumnID">#{Package\Задача потока данных\Соединение слиянием 2.Inputs[Левый вход соединения слиянием].Columns[userid]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Задача потока данных\Соединение слиянием 2.Outputs[Выход соединения слиянием].Columns[useridname]"
-                      dataType="wstr"
-                      length="300"
-                      lineageId="Package\Задача потока данных\Соединение слиянием 2.Outputs[Выход соединения слиянием].Columns[useridname]"
-                      name="useridname">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Входной столбец, связанный с этим выходным столбцом"
-                          name="InputColumnID">#{Package\Задача потока данных\Соединение слиянием 2.Inputs[Левый вход соединения слиянием].Columns[useridname]}</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
@@ -3154,56 +2949,6 @@
                       </properties>
                     </inputColumn>
                     <inputColumn
-                      refId="Package\Задача потока данных\Сортировка 3.Inputs[Вход сортировки].Columns[objecttypecode]"
-                      cachedDataType="wstr"
-                      cachedLength="64"
-                      cachedName="objecttypecode"
-                      lineageId="Package\Задача потока данных\Соединение слиянием 2.Outputs[Выход соединения слиянием].Columns[objecttypecode]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Задает параметры сравнения символьных данных."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Указывает порядок сортировки столбца."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Задача потока данных\Сортировка 3.Inputs[Вход сортировки].Columns[userid]"
-                      cachedDataType="guid"
-                      cachedName="userid"
-                      lineageId="Package\Задача потока данных\Соединение слиянием 2.Outputs[Выход соединения слиянием].Columns[userid]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Задает параметры сравнения символьных данных."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Указывает порядок сортировки столбца."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Задача потока данных\Сортировка 3.Inputs[Вход сортировки].Columns[useridname]"
-                      cachedDataType="wstr"
-                      cachedLength="300"
-                      cachedName="useridname"
-                      lineageId="Package\Задача потока данных\Соединение слиянием 2.Outputs[Выход соединения слиянием].Columns[useridname]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Задает параметры сравнения символьных данных."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Указывает порядок сортировки столбца."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
                       refId="Package\Задача потока данных\Сортировка 3.Inputs[Вход сортировки].Columns[fieldname]"
                       cachedDataType="wstr"
                       cachedLength="255"
@@ -3321,47 +3066,6 @@
                           dataType="System.Int32"
                           description="Указывает идентификатор журнала обращений и преобразований входного столбца, связанного с этим выходным столбцом."
                           name="SortColumnId">#{Package\Задача потока данных\Соединение слиянием 2.Outputs[Выход соединения слиянием].Columns[createdon]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Задача потока данных\Сортировка 3.Outputs[Выход сортировки].Columns[objecttypecode]"
-                      dataType="wstr"
-                      length="64"
-                      lineageId="Package\Задача потока данных\Сортировка 3.Outputs[Выход сортировки].Columns[objecttypecode]"
-                      name="objecttypecode">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Указывает идентификатор журнала обращений и преобразований входного столбца, связанного с этим выходным столбцом."
-                          name="SortColumnId">#{Package\Задача потока данных\Соединение слиянием 2.Outputs[Выход соединения слиянием].Columns[objecttypecode]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Задача потока данных\Сортировка 3.Outputs[Выход сортировки].Columns[userid]"
-                      dataType="guid"
-                      lineageId="Package\Задача потока данных\Сортировка 3.Outputs[Выход сортировки].Columns[userid]"
-                      name="userid">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Указывает идентификатор журнала обращений и преобразований входного столбца, связанного с этим выходным столбцом."
-                          name="SortColumnId">#{Package\Задача потока данных\Соединение слиянием 2.Outputs[Выход соединения слиянием].Columns[userid]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Задача потока данных\Сортировка 3.Outputs[Выход сортировки].Columns[useridname]"
-                      dataType="wstr"
-                      length="300"
-                      lineageId="Package\Задача потока данных\Сортировка 3.Outputs[Выход сортировки].Columns[useridname]"
-                      name="useridname">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Указывает идентификатор журнала обращений и преобразований входного столбца, связанного с этим выходным столбцом."
-                          name="SortColumnId">#{Package\Задача потока данных\Соединение слиянием 2.Outputs[Выход соединения слиянием].Columns[useridname]}</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
@@ -3508,56 +3212,6 @@
                           name="NewSortKeyPosition">0</property>
                       </properties>
                     </inputColumn>
-                    <inputColumn
-                      refId="Package\Задача потока данных\Сортировка 4.Inputs[Вход сортировки].Columns[objecttypecode]"
-                      cachedDataType="wstr"
-                      cachedLength="64"
-                      cachedName="objecttypecode"
-                      lineageId="Package\Задача потока данных\Dynamics CRM Source.Outputs[Primary Output].Columns[objecttypecode]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Задает параметры сравнения символьных данных."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Указывает порядок сортировки столбца."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Задача потока данных\Сортировка 4.Inputs[Вход сортировки].Columns[userid]"
-                      cachedDataType="guid"
-                      cachedName="userid"
-                      lineageId="Package\Задача потока данных\Dynamics CRM Source.Outputs[Primary Output].Columns[userid]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Задает параметры сравнения символьных данных."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Указывает порядок сортировки столбца."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Задача потока данных\Сортировка 4.Inputs[Вход сортировки].Columns[useridname]"
-                      cachedDataType="wstr"
-                      cachedLength="300"
-                      cachedName="useridname"
-                      lineageId="Package\Задача потока данных\Dynamics CRM Source.Outputs[Primary Output].Columns[useridname]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Задает параметры сравнения символьных данных."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Указывает порядок сортировки столбца."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
@@ -3606,47 +3260,6 @@
                           dataType="System.Int32"
                           description="Указывает идентификатор журнала обращений и преобразований входного столбца, связанного с этим выходным столбцом."
                           name="SortColumnId">#{Package\Задача потока данных\Dynamics CRM Source.Outputs[Primary Output].Columns[objectid]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Задача потока данных\Сортировка 4.Outputs[Выход сортировки].Columns[objecttypecode]"
-                      dataType="wstr"
-                      length="64"
-                      lineageId="Package\Задача потока данных\Сортировка 4.Outputs[Выход сортировки].Columns[objecttypecode]"
-                      name="objecttypecode">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Указывает идентификатор журнала обращений и преобразований входного столбца, связанного с этим выходным столбцом."
-                          name="SortColumnId">#{Package\Задача потока данных\Dynamics CRM Source.Outputs[Primary Output].Columns[objecttypecode]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Задача потока данных\Сортировка 4.Outputs[Выход сортировки].Columns[userid]"
-                      dataType="guid"
-                      lineageId="Package\Задача потока данных\Сортировка 4.Outputs[Выход сортировки].Columns[userid]"
-                      name="userid">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Указывает идентификатор журнала обращений и преобразований входного столбца, связанного с этим выходным столбцом."
-                          name="SortColumnId">#{Package\Задача потока данных\Dynamics CRM Source.Outputs[Primary Output].Columns[userid]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Задача потока данных\Сортировка 4.Outputs[Выход сортировки].Columns[useridname]"
-                      dataType="wstr"
-                      length="300"
-                      lineageId="Package\Задача потока данных\Сортировка 4.Outputs[Выход сортировки].Columns[useridname]"
-                      name="useridname">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Указывает идентификатор журнала обращений и преобразований входного столбца, связанного с этим выходным столбцом."
-                          name="SortColumnId">#{Package\Задача потока данных\Dynamics CRM Source.Outputs[Primary Output].Columns[useridname]}</property>
                       </properties>
                     </outputColumn>
                   </outputColumns>
