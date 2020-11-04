@@ -11,8 +11,8 @@
   DTS:LocaleID="1049"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="14"
-  DTS:VersionGUID="{AC2F9CFB-8E0D-4D4F-A9EF-58A2A4DC13A2}">
+  DTS:VersionBuild="26"
+  DTS:VersionGUID="{488A463C-227A-44FA-8C50-E478D0DC2777}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -23,11 +23,11 @@
       DTS:ObjectName="Dynamics CRM Connection Manager">
       <DTS:ObjectData>
         <CrmConnectionManager
-          ConnectionString="AuthenticationType=OnlineFederation;ServiceEndpoint=Soap2011;UserName=trialadmindemo@udstrialsdemo40.onmicrosoft.com;Domain=;CrmServerUrl=https://udstrialsdemo40.crm4.dynamics.com/;ProxyUsername=;ProxyMode=NoProxy;ProxyServer=;ProxyServerPort=0;BypassProxyOnLocal=False;HomeRealmUri=;ServiceTimeout=120;RetryOnIntermittentErrors=True;IgnoreCertificateErrors=False"
+          ConnectionString="AuthenticationType=OnlineFederation;ServiceEndpoint=Soap2011;UserName=trialadmindemo@udstrialsdemo40.onmicrosoft.com;Domain=;CrmServerUrl=https://udstrialsdemo40.crm4.dynamics.com/;ProxyUsername=;ProxyMode=NoProxy;ProxyServer=;ProxyServerPort=0;BypassProxyOnLocal=False;HomeRealmUri=;ApiVersion=;ServiceTimeout=120;RetryOnIntermittentErrors=True;IgnoreCertificateErrors=False"
           ConnectByProxy="False">
           <Password
             Sensitive="1" xmlns="www.microsoft.com/SqlServer/Dts"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAApRdI+WKVA0irPISsVQdfxgAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAADd/nFsxnVtWOzTGfZSUAqyAAAAAASAAACgAAAAEAAAALypkwtFbjmq0jPxrnkhrIEoAAAAYdN5fdYfvMe+a4HBt4LXIUJocFkvKeNKdPng5a4kI1Jo+z+70PczDBQAAACDeAnO5oTSiRGQE0ARTc99X+7vjw</Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAApRdI+WKVA0irPISsVQdfxgAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAB7Tc/hBeh9IwoCnzY+d5KYAAAAAASAAACgAAAAEAAAAI1BoYypUIm1XiOT1LoyBA0oAAAAwQKur40f0CwSmVfP36znwqA9SUYT3jxH9U1JJLzq7PCshIpvAb6ofhQAAAApFsypp6CSrFkN56hfQsL6OtNfyA</Password>
         </CrmConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -136,82 +136,82 @@
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:Format="Delimited"
-          DTS:LocaleID="1049"
-          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:LocaleID="1033"
+          DTS:HeaderRowDelimiter="_x003B_"
           DTS:ColumnNamesInFirstDataRow="True"
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Users\b.voinyk\Desktop\testcsv.csv">
+          DTS:ConnectionString="C:\Users\b.voinyk\Desktop\auditData.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
+              DTS:ColumnDelimiter="_x003B_"
               DTS:DataType="135"
               DTS:TextQualified="True"
               DTS:ObjectName="createdon"
-              DTS:DTSID="{96EFE09C-75A6-41E1-AE2D-58CF81EE7D14}"
+              DTS:DTSID="{10745EE4-33B0-44F4-B144-E0999EBF48CD}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
+              DTS:ColumnDelimiter="_x003B_"
               DTS:MaximumWidth="160"
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="name"
-              DTS:DTSID="{6ED54DE3-AC8A-4CC8-AC8F-BF40D081CA7A}"
+              DTS:DTSID="{D3399D8F-F858-48C8-92D1-2FD7DE26D73F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
+              DTS:ColumnDelimiter="_x003B_"
               DTS:MaximumWidth="20"
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="accountnumber"
-              DTS:DTSID="{29B9EEE3-6E09-4B94-87BD-29F459F37258}"
+              DTS:DTSID="{B9680556-EF47-41B7-AEB9-94D42B2114B4}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
+              DTS:ColumnDelimiter="_x003B_"
               DTS:MaximumWidth="64"
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="objecttypecode"
-              DTS:DTSID="{A093681E-0370-49BB-BD69-E3DF076FFB1B}"
+              DTS:DTSID="{69F22CFE-DEF3-49B3-943A-2FCC122FA45B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
+              DTS:ColumnDelimiter="_x003B_"
               DTS:DataType="72"
               DTS:TextQualified="True"
               DTS:ObjectName="userid"
-              DTS:DTSID="{850745D3-87CC-4158-B666-E988B05A20B7}"
+              DTS:DTSID="{90C1AA53-E55E-41BA-83BC-879288C586E9}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
+              DTS:ColumnDelimiter="_x003B_"
               DTS:MaximumWidth="300"
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="useridname"
-              DTS:DTSID="{F95A6427-FD36-49ED-9671-F596D9FACCE1}"
+              DTS:DTSID="{9404E843-8AFF-4A07-9B3B-E88C85F34F3B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
+              DTS:ColumnDelimiter="_x003B_"
               DTS:MaximumWidth="255"
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="fieldname"
-              DTS:DTSID="{AD5B49D1-AE02-44D1-8E2E-A8D4006E15A9}"
+              DTS:DTSID="{9FBA7F5A-E6C1-4FA2-8672-CAB71FA7A833}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
+              DTS:ColumnDelimiter="_x003B_"
               DTS:DataType="302"
               DTS:TextQualified="True"
               DTS:ObjectName="oldvalue_converted"
-              DTS:DTSID="{5C6538DE-3DAA-4C36-AAAE-028DA65E44AE}"
+              DTS:DTSID="{9B174798-4858-4F05-A5B8-CA3703D85DDF}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -219,7 +219,7 @@
               DTS:DataType="302"
               DTS:TextQualified="True"
               DTS:ObjectName="newvalue_converted"
-              DTS:DTSID="{0F270C9B-01C9-4AB1-A9EE-3202617B5510}"
+              DTS:DTSID="{BAC29A0C-5AD8-44E5-9D4C-8F1D77E61A9D}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -290,7 +290,8 @@
                   dataType="System.Null"
                   description="Specifies the output timezone for CRM datetime fields."
                   expressionType="Notify"
-                  name="OutputTimezone" />
+                  name="OutputTimezone"
+                  typeConverter="KingswaySoft.IntegrationToolkit.Common.DescriptiveEnumTypeConverter`1[[KingswaySoft.IntegrationToolkit.DynamicsCrm.CrmSourceOutputTimezone" />
                 <property
                   dataType="System.String"
                   name="UserComponentTypeName">KingswaySoft.IntegrationToolkit.DynamicsCrm.CrmSourceComponent</property>
@@ -825,7 +826,8 @@
                   dataType="System.Null"
                   description="Specifies the output timezone for CRM datetime fields."
                   expressionType="Notify"
-                  name="OutputTimezone" />
+                  name="OutputTimezone"
+                  typeConverter="KingswaySoft.IntegrationToolkit.Common.DescriptiveEnumTypeConverter`1[[KingswaySoft.IntegrationToolkit.DynamicsCrm.CrmSourceOutputTimezone" />
                 <property
                   dataType="System.String"
                   name="UserComponentTypeName">KingswaySoft.IntegrationToolkit.DynamicsCrm.CrmSourceComponent</property>
@@ -1976,7 +1978,7 @@
               componentClassID="Microsoft.FlatFileDestination"
               contactInfo="Назначение &quot;Неструктурированный файл&quot;;Корпорация Майкрософт. Microsoft SQL Server. (C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены. http://www.microsoft.com/sql/support;1"
               description="Назначение &quot;Неструктурированный файл&quot;"
-              localeId="1049"
+              localeId="1033"
               name="Назначение &quot;Неструктурированный файл&quot;"
               version="1">
               <properties>
@@ -3734,54 +3736,6 @@
       <GraphLayout
         Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="193,42"
-          Id="Package\Задача потока данных\Dynamics CRM Source"
-          TopLeft="189,101" />
-        <NodeLayout
-          Size="149,42"
-          Id="Package\Задача потока данных\Сортировка 1"
-          TopLeft="283,328" />
-        <EdgeLayout
-          Id="Package\Задача потока данных.Paths[Audit Details (Attribute Changes)]"
-          TopLeft="316.333333333333,143">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="41.1666666666667,185"
-              Start="0,0"
-              End="41.1666666666667,177.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,70.912641315519" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,70.912641315519"
-                    Point2="0,74.912641315519"
-                    Point3="4,74.912641315519" />
-                  <mssgle:LineSegment
-                    End="37.1666666666667,74.912641315519" />
-                  <mssgle:CubicBezierSegment
-                    Point1="37.1666666666667,74.912641315519"
-                    Point2="41.1666666666667,74.912641315519"
-                    Point3="41.1666666666667,78.912641315519" />
-                  <mssgle:LineSegment
-                    End="41.1666666666667,177.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-52.8814713541667,79.912641315519,146.929609375,11.6630859375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="194,42"
-          Id="Package\Задача потока данных\Производный столбец"
-          TopLeft="248,557" />
-        <NodeLayout
           Size="202,42"
           Id="Package\Задача потока данных\Dynamics CRM Source 1"
           TopLeft="532,440" />
@@ -3791,150 +3745,62 @@
           TopLeft="634,586" />
         <NodeLayout
           Size="149,42"
-          Id="Package\Задача потока данных\Сортировка 2"
-          TopLeft="627,510" />
-        <EdgeLayout
-          Id="Package\Задача потока данных.Paths[Primary Output]"
-          TopLeft="633,482">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="68.5,28"
-              Start="0,0"
-              End="68.5,20.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,10" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,10"
-                    Point2="0,14"
-                    Point3="4,14" />
-                  <mssgle:LineSegment
-                    End="64.5,14" />
-                  <mssgle:CubicBezierSegment
-                    Point1="64.5,14"
-                    Point2="68.5,14"
-                    Point3="68.5,18" />
-                  <mssgle:LineSegment
-                    End="68.5,20.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Задача потока данных.Paths[Выход сортировки]"
-          TopLeft="701.5,552">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="34.5,34"
-              Start="0,0"
-              End="34.5,26.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,13" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,13"
-                    Point2="0,17"
-                    Point3="4,17" />
-                  <mssgle:LineSegment
-                    End="30.5,17" />
-                  <mssgle:CubicBezierSegment
-                    Point1="30.5,17"
-                    Point2="34.5,17"
-                    Point3="34.5,21" />
-                  <mssgle:LineSegment
-                    End="34.5,26.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
+          Id="Package\Задача потока данных\Сортировка 1"
+          TopLeft="283,328" />
         <NodeLayout
           Size="297,42"
           Id="Package\Задача потока данных\Назначение &quot;Неструктурированный файл&quot;"
-          TopLeft="627,717" />
+          TopLeft="797,427" />
+        <NodeLayout
+          Size="149,42"
+          Id="Package\Задача потока данных\Сортировка 2"
+          TopLeft="627,510" />
+        <NodeLayout
+          Size="149,42"
+          Id="Package\Задача потока данных\Сортировка 3"
+          TopLeft="416,651" />
+        <NodeLayout
+          Size="194,42"
+          Id="Package\Задача потока данных\Производный столбец"
+          TopLeft="248,557" />
+        <NodeLayout
+          Size="204,42"
+          Id="Package\Задача потока данных\Соединение слиянием 2"
+          TopLeft="28,487" />
+        <NodeLayout
+          Size="193,42"
+          Id="Package\Задача потока данных\Dynamics CRM Source"
+          TopLeft="189,101" />
         <NodeLayout
           Size="149,42"
           Id="Package\Задача потока данных\Сортировка 4"
           TopLeft="137,231" />
         <EdgeLayout
-          Id="Package\Задача потока данных.Paths[Primary Output1]"
-          TopLeft="254.666666666667,143">
+          Id="Package\Задача потока данных.Paths[Выход сортировки3]"
+          TopLeft="514,651">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-43.1666666666667,88"
+              EndConnector="189.333333333333,-23"
               Start="0,0"
-              End="-43.1666666666667,80.5">
+              End="189.333333333333,-15.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,31.634121274409" />
+                    End="0,-7.54067262555462" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,31.634121274409"
-                    Point2="0,35.634121274409"
-                    Point3="-4,35.634121274409" />
+                    Point1="0,-7.54067262555462"
+                    Point2="0,-11.5406726255546"
+                    Point3="4,-11.5406726255546" />
                   <mssgle:LineSegment
-                    End="-39.1666666666667,35.634121274409" />
+                    End="185.333333333333,-11.5406726255546" />
                   <mssgle:CubicBezierSegment
-                    Point1="-39.1666666666667,35.634121274409"
-                    Point2="-43.1666666666667,35.634121274409"
-                    Point3="-43.1666666666667,39.634121274409" />
+                    Point1="185.333333333333,-11.5406726255546"
+                    Point2="189.333333333333,-11.5406726255546"
+                    Point3="189.333333333333,-15.5406726255546" />
                   <mssgle:LineSegment
-                    End="-43.1666666666667,80.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-55.8147200520833,40.634121274409,68.4627734375,11.43359375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="204,42"
-          Id="Package\Задача потока данных\Соединение слиянием 2"
-          TopLeft="28,487" />
-        <EdgeLayout
-          Id="Package\Задача потока данных.Paths[Выход сортировки1]"
-          TopLeft="211.5,273">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-114.166666666667,214"
-              Start="0,0"
-              End="-114.166666666667,206.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,123.400778210117" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,123.400778210117"
-                    Point2="0,127.400778210117"
-                    Point3="-4,127.400778210117" />
-                  <mssgle:LineSegment
-                    End="-110.166666666667,127.400778210117" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-110.166666666667,127.400778210117"
-                    Point2="-114.166666666667,127.400778210117"
-                    Point3="-114.166666666667,131.400778210117" />
-                  <mssgle:LineSegment
-                    End="-114.166666666667,206.5" />
+                    End="189.333333333333,-15.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -3978,6 +3844,108 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
+          Id="Package\Задача потока данных.Paths[Выход сортировки1]"
+          TopLeft="211.5,273">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-114.166666666667,214"
+              Start="0,0"
+              End="-114.166666666667,206.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,123.400778210117" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,123.400778210117"
+                    Point2="0,127.400778210117"
+                    Point3="-4,127.400778210117" />
+                  <mssgle:LineSegment
+                    End="-110.166666666667,127.400778210117" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-110.166666666667,127.400778210117"
+                    Point2="-114.166666666667,127.400778210117"
+                    Point3="-114.166666666667,131.400778210117" />
+                  <mssgle:LineSegment
+                    End="-114.166666666667,206.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Задача потока данных.Paths[Выход сортировки]"
+          TopLeft="701.5,552">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="34.5,34"
+              Start="0,0"
+              End="34.5,26.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,13" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,13"
+                    Point2="0,17"
+                    Point3="4,17" />
+                  <mssgle:LineSegment
+                    End="30.5,17" />
+                  <mssgle:CubicBezierSegment
+                    Point1="30.5,17"
+                    Point2="34.5,17"
+                    Point3="34.5,21" />
+                  <mssgle:LineSegment
+                    End="34.5,26.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Задача потока данных.Paths[Выход соединения слиянием1]"
+          TopLeft="787.666666666667,586">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="157.833333333333,-117"
+              Start="0,0"
+              End="157.833333333333,-109.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,-43.3463035019455" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,-43.3463035019455"
+                    Point2="0,-47.3463035019455"
+                    Point3="4,-47.3463035019455" />
+                  <mssgle:LineSegment
+                    End="153.833333333333,-47.3463035019455" />
+                  <mssgle:CubicBezierSegment
+                    Point1="153.833333333333,-47.3463035019455"
+                    Point2="157.833333333333,-47.3463035019455"
+                    Point3="157.833333333333,-51.3463035019455" />
+                  <mssgle:LineSegment
+                    End="157.833333333333,-109.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
           Id="Package\Задача потока данных.Paths[Выход соединения слиянием]"
           TopLeft="130,529">
           <EdgeLayout.Curve>
@@ -4011,10 +3979,6 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="149,42"
-          Id="Package\Задача потока данных\Сортировка 3"
-          TopLeft="416,651" />
         <EdgeLayout
           Id="Package\Задача потока данных.Paths[Выход производного столбца]"
           TopLeft="345,599">
@@ -4050,31 +4014,67 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Задача потока данных.Paths[Выход сортировки3]"
-          TopLeft="514,651">
+          Id="Package\Задача потока данных.Paths[Primary Output1]"
+          TopLeft="254.666666666667,143">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="189.333333333333,-23"
+              EndConnector="-43.1666666666667,88"
               Start="0,0"
-              End="189.333333333333,-15.5">
+              End="-43.1666666666667,80.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,-7.54067262555462" />
+                    End="0,31.634121274409" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,-7.54067262555462"
-                    Point2="0,-11.5406726255546"
-                    Point3="4,-11.5406726255546" />
+                    Point1="0,31.634121274409"
+                    Point2="0,35.634121274409"
+                    Point3="-4,35.634121274409" />
                   <mssgle:LineSegment
-                    End="185.333333333333,-11.5406726255546" />
+                    End="-39.1666666666667,35.634121274409" />
                   <mssgle:CubicBezierSegment
-                    Point1="185.333333333333,-11.5406726255546"
-                    Point2="189.333333333333,-11.5406726255546"
-                    Point3="189.333333333333,-15.5406726255546" />
+                    Point1="-39.1666666666667,35.634121274409"
+                    Point2="-43.1666666666667,35.634121274409"
+                    Point3="-43.1666666666667,39.634121274409" />
                   <mssgle:LineSegment
-                    End="189.333333333333,-15.5" />
+                    End="-43.1666666666667,80.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-55.8147200520834,40.634121274409,68.4627734375,11.43359375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Задача потока данных.Paths[Primary Output]"
+          TopLeft="633,482">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="68.5,28"
+              Start="0,0"
+              End="68.5,20.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,10" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,10"
+                    Point2="0,14"
+                    Point3="4,14" />
+                  <mssgle:LineSegment
+                    End="64.5,14" />
+                  <mssgle:CubicBezierSegment
+                    Point1="64.5,14"
+                    Point2="68.5,14"
+                    Point3="68.5,18" />
+                  <mssgle:LineSegment
+                    End="68.5,20.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -4084,25 +4084,39 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Задача потока данных.Paths[Выход соединения слиянием1]"
-          TopLeft="772.083333333333,628">
+          Id="Package\Задача потока данных.Paths[Audit Details (Attribute Changes)]"
+          TopLeft="316.333333333333,143">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,89"
+              EndConnector="41.1666666666667,185"
               Start="0,0"
-              End="0,81.5">
+              End="41.1666666666667,177.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,81.5" />
+                    End="0,70.912641315519" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,70.912641315519"
+                    Point2="0,74.912641315519"
+                    Point3="4,74.912641315519" />
+                  <mssgle:LineSegment
+                    End="37.1666666666667,74.912641315519" />
+                  <mssgle:CubicBezierSegment
+                    Point1="37.1666666666667,74.912641315519"
+                    Point2="41.1666666666667,74.912641315519"
+                    Point3="41.1666666666667,78.912641315519" />
+                  <mssgle:LineSegment
+                    End="41.1666666666667,177.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="-52.8814713541667,79.912641315519,146.929609375,11.6630859375"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
